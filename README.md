@@ -47,26 +47,26 @@ demo下载：https://github.com/MiuMiu-S/Lottie-bodymovin-H5
 </html>
 ```
 ###### 3. 属性
-animationData: 包含导出的动画数据的对象。
-path: 动画数据文件的相对路径。 (animationData 和 path 参数是互斥的)
-loop: 循环设置，值为true / false / number（循环/不循环/循环n次（n为输入值））
-autoplay: 自动播放设置。true为准备就绪后自动播放，false为不自动播放。
-name: 动画名，用于后续引用。
-renderer: 选择渲染器，值为'svg' / 'canvas' / 'html' 。
+animationData: 包含导出的动画数据的对象。<br/>
+path: 动画数据文件的相对路径。 (animationData 和 path 参数是互斥的)<br/>
+loop: 循环设置，值为true / false / number（循环/不循环/循环n次（n为输入值））<br/>
+autoplay: 自动播放设置。true为准备就绪后自动播放，false为不自动播放。<br/>
+name: 动画名，用于后续引用。<br/>
+renderer: 选择渲染器，值为'svg' / 'canvas' / 'html' 。<br/>
 container: 需要渲染动画的dom元素。
 
 ###### 4. 相关方法:
-bodymovin.play() -- 播放指定动画，1个参数动画名。
-bodymovin.stop() -- 停止播放指定动画，1个参数动画名。
-bodymovin.setSpeed() -- 第一个参数设置动画速度 (1为正常速度），第二个参数动画名可选。
-bodymovin.setDirection() -- f播放方向，正数和0为正常播放，负数为倒放，第二个参数动画名可选。
-bodymovin.searchAnimations() -- 检测class值为"bodymovin"的元素。
-bodymovin.loadAnimation() -- 前面已有介绍， 返回一个可单独控制的动画实例。
-bodymovin.destroy() --销毁和释放资源。 DOM 元素将会被清空。
-bodymovin.registerAnimation() -- 你可以直接用registerAnimation来注册一个自定义元素，它必须包含"data-animation-path"属性并指向data.json的地址。
+bodymovin.play() -- 播放指定动画，1个参数动画名。<br/>
+bodymovin.stop() -- 停止播放指定动画，1个参数动画名。<br/>
+bodymovin.setSpeed() -- 第一个参数设置动画速度 (1为正常速度），第二个参数动画名可选。<br/>
+bodymovin.setDirection() -- f播放方向，正数和0为正常播放，负数为倒放，第二个参数动画名可选。<br/>
+bodymovin.searchAnimations() -- 检测class值为"bodymovin"的元素。<br/>
+bodymovin.loadAnimation() -- 前面已有介绍， 返回一个可单独控制的动画实例。<br/>
+bodymovin.destroy() --销毁和释放资源。 DOM 元素将会被清空。<br/>
+bodymovin.registerAnimation() -- 你可以直接用registerAnimation来注册一个自定义元素，它必须包含"data-animation-path"属性并指向data.json的地址。<br/>
 bodymovin.setQuality() -- 画质设置，调整动画播放器性能。默认为高画质(high), 可选值为'high'、'medium'、'low', 或者大于1的数字。对于有的动画这些设置差别不大。
 
 
-参考
-https://www.cnblogs.com/zamhown/p/6688369.html<br>
+参考<br/>
+https://www.cnblogs.com/zamhown/p/6688369.html<br/>
 https://github.com/bigxixi/bodymovin
