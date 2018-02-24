@@ -16,7 +16,7 @@ Lottie动画库和Bodymovin的AE插件结合，把在AE上做好的动画导出�
 ###### 1. 资源准备：
 1、AE导出的json文件；
 2、lottie.js
-https://github.com/MiuMiu-S/Lottie-bodymovin-H5
+demo下载：https://github.com/MiuMiu-S/Lottie-bodymovin-H5
 
 ###### 2. 代码：
 ```
